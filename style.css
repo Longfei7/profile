@@ -1,14 +1,14 @@
 @media (max-width: 1200px) {
 	.center {
 		width:700px;
+	}
 }
-
-@media (max-width: 720) {
+@media (max-width: 720px) {
 	.center {
 		width:500px;
 	}
 }
-@media (max-width: 540) {
+@media (max-width: 540px) {
 	.center {
 		width:300px;
 	}
@@ -18,18 +18,22 @@ h1 {
 	font-size: 30px;
 	color:rgb(0,41,101);
 }
-
+.unifiedFont {
+	font-family: calibri ;
+	text-align: center;
+}
 .center {
 	background-color: rgb(220,230,246);
 	text-align: center;
 	align-content: center;
+	padding: 3px;
+	margin: 5px;
+	display:inline-block;
 }
-.unifiedFont {
-	font-family: calibri ;
-}
+
 .whitebox {
 	background-color: white;
-	margin: 20px; 
+	margin: 5px; 
 	padding: 20px;
 	border-radius: 4px;
 	box-shadow: 5px 5px 10px rgb(151,170,209);
